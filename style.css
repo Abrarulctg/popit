@@ -2,9 +2,8 @@ body{
     font-family: 'Nobile', sans-serif;
 }
 .container-fluid{
-    margin: 0px 30px;
+    margin: 0px 45px;
 }
-
 .nav-head-section{
     background-image: url(image/POPIT-BACKGROUND-1.png);
     background-size: cover;
@@ -12,67 +11,98 @@ body{
     color: #fff !important;
 }
 
+.navbar-brand{
+    position: relative;
+}
 .navbar-brand img{
-    width: 100px;
+    position: absolute;
+    width: 280px;
+    bottom: -1600% !important;
 }
 
 .nav-item{
-    padding: 20px 10px;
+    padding: 20px 8px;
 }
 
 .nav-item a{
     color: #fff !important;
     font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 
 .head-title{
     text-align: right;
     font-size: 64px;
-    font-family: n;
+    letter-spacing: 1px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 30px;
 }
 
 .top-sticker{
-    width: 300px;
+    width: 250px;
+    margin:20px 0;
+    -webkit-filter: drop-shadow(5px 12px 10px #222 );
+    filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.568));
 }
 
-.text-right h3{
+.feature-text h3{
     line-height: 45px;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
 }
+
+
 
 .main-content{
-    background-color: #37064e60;
+    background-color: #480069ad;
 }
+
 
 .main-content-title{
     text-align: center;
     padding: 20px 0;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .content-circle{
     width:100%;
     position: relative;
     margin-bottom: 40px;
+    -webkit-filter: drop-shadow(8px 10px 15px #222 );
+    filter: drop-shadow(15px 8px 15px #222);
 }
 
+.deal1-text{
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    font-size: 66px !important;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 .content-text{
     position:absolute;
     top: 10%;
-    left: 18%;
+    left: 12%;
     text-align: center;
-    font-size: 66px !important;
-    font-family: 'Calibri', 'Trebuchet MS', sans-serif !important;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
-.content-text .h1{
-    font-weight: 700;
+/* .content-text .h1{
     font-size: 44px;
-    line-height: 5px !important;
-
-}
+    line-height: .6 !important;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans KR', sans-serif;
+} */
 
 .gb-text{
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 54px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -81,22 +111,333 @@ body{
     color: #000;
 }
 
+.bottom-feature-box{
+    padding: 30px 20px;
+}
+
+.bottom-sticker{
+    padding:20px 0;
+    -webkit-filter: drop-shadow(5px 12px 10px #222 );
+    filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.644));
+}
+
 .btm-stck1{
     height: auto;
 }
 
-.bottm-sticker2{
-    width:200px;
-    height:250px !important;
-}
+
 .whychoose{
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
-    font-family:  'Titillium Web', sans-serif;;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0;
 }
 
 .noNonsense{
-    font-size: 44px;
-    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-family:  'Jost', sans-serif;
 
+}
+
+.bottom-feature{
+    text-align:left;
+    margin-left: 170px;
+}
+
+.footer{
+    background-color: rgb(204, 204, 0);
+}
+.footer-manu{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-manu a{
+    color:rgb(65, 29, 29);
+    padding-right:30px;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.footer-manu a:hover{
+    text-decoration: none;
+}
+
+.footer-logo{
+    width: 150px;
+    margin: 20px 0 20px;
+    padding: 0;
+}
+
+.footer-manu .sub-footer-manu{
+    font-size: 14px !important;
+    letter-spacing: normal;
+}
+.sub-footer-manus{
+    text-align:left !important;
+    padding-left:25px;
+}
+.sub-manu-active{
+    text-align: left !important;
+}
+
+.footer .text-right{
+    padding:0;
+}
+
+h1{
+    margin:0;
+}
+
+
+/* * Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .navbar-brand img{
+        width: 100px;
+        position:relative;
+    }
+    .head-title{
+        text-align: center;
+        font-size: 24px;
+        padding:30px 0;
+    }
+    .top-feature{
+        justify-content:left !important;
+    }
+    .top-sticker{
+        width:100%;
+    }
+    
+    .feature-text h3{
+        line-height: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-align:center !important;
+        font-size:22px;
+    }
+    .main-content-title{
+        text-align: center;
+        padding: 20px 0;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 24px;
+    }
+    .content-circle{
+        -webkit-filter: drop-shadow(4px 5px 8px #222 );
+        filter: drop-shadow(4px 5px 8px #222);
+    }
+    .deal1-text{
+        top: 20%;
+        left: 10%;
+    }
+    .deal1-text h1{
+        font-size: 34px;
+    }
+    .content-text{
+        left: 10%;
+    }
+    .content-text h1{
+        font-size:34px;
+    }
+    .bottom-feature-responsive{
+        width: 100% !important;
+    }
+    .whychoose{
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+    .noNonsense{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .bottom-feature{
+        margin-left: 20px;
+    }
+    .footer-manu {
+        text-align:center;
+    }
+    .footer-manu a{
+        color:rgb(65, 29, 29);
+        padding-right:0 !important;
+        font-size:20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .footer-logo-small-screen{
+        text-align: center !important;
+    }
+    .sub-footer-manu{
+        font-size: 14px !important;
+    }
+    .sub-manu-active{
+        text-align: center !important;
+    }
+    .sub-footer-manus{
+        text-align:center !important;
+        padding-left:0;
+    }
+    
+    .btm-stckr{
+        margin-bottom:20px;
+    }
+}
+
+
+
+/*  mini Screen */
+@media only screen and (min-width: 375px) and (max-width: 500px){
+    .deal1-text{
+        top: 25%;
+        left: 12%;
+    }
+    .deal1-text h1{
+        font-size: 38px;
+    }
+    .content-text{
+        left: 12%;
+        top:12%;
+    }
+    .content-text h1{
+        font-size:38px;
+    }
+
+}
+
+
+
+/*  tab Screen */
+@media only screen and (min-width: 425px) and (max-width: 500px){
+    .deal1-text{
+        top: 25%;
+        left: 12%;
+    }
+    .deal1-text h1{
+        font-size: 42px;
+    }
+    .content-text{
+        left: 14%;
+        top:14%;
+    }
+    .content-text h1{
+        font-size:42px;
+    }
+
+}
+
+
+/*  medium Screen */
+@media only screen and (min-width: 768px) and (max-width: 780px){
+    .nav-item{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .navbar-brand img{
+        position: absolute;
+        width: 150px;
+        bottom: -1000% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .deal1-text{
+        top: 20%;
+        left: 12%;
+    }
+    .deal1-text h1{
+        font-size: 26px;
+    }
+    .content-text{
+        left: 10%;
+        top:12%;
+    }
+    .content-text h1{
+        font-size:26px;
+    }
+    .gb-text{
+        font-weight: 900;
+        font-size: 32px;
+    }
+    .footer-manu a{
+        color:rgb(65, 29, 29);
+        padding-right:0 !important;
+        font-size:16px;
+        font-weight: 700;
+    }
+
+}
+
+
+
+/*  mini desktop Screen */
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+    .navbar-brand img{
+        position: absolute;
+        width: 100px;
+        bottom: -350% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 54px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .deal1-text{
+        top: 20%;
+        left: 10%;
+    }
+    .deal1-text h1{
+        font-size: 36px;
+    }
+    .content-text{
+        left: 10%;
+        top:12%;
+    }
+    .content-text h1{
+        font-size:36px;
+    }
+    .gb-text{
+        font-weight: 900;
+        font-size: 32px;
+    }
+}
+
+
+
+/*  large Screen */
+@media only screen and (min-width: 1100px) and (max-width: 1220px){
+    .navbar-brand img{
+        position: absolute;
+        width: 100px;
+        bottom: -350% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 54px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .deal1-text{
+        top: 20%;
+        left: 10%;
+    }
+    .deal1-text h1{
+        font-size: 36px;
+    }
+    .content-text{
+        left: 10%;
+        top:12%;
+    }
+    .content-text h1{
+        font-size:36px;
+    }
+    .gb-text{
+        font-weight: 900;
+        font-size: 32px;
+    }
 }
