@@ -191,16 +191,23 @@ h1{
     margin:0;
 }
 
+.hvr-float{
+    cursor: pointer;
+}
 
 /* * Small Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
+    .nav-item{
+        padding: 0;
+    }
     .navbar-brand img{
         width: 100px;
         position:relative;
     }
     .head-title{
         text-align: center;
-        font-size: 24px;
+        font-size: 32px;
+        font-weight: 700;
         padding:30px 0;
     }
     .top-feature{
