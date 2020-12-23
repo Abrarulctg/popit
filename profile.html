@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poppit</title>
+    <title>Poppit : Welcome to your profile</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
@@ -12,10 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                <a class="nav-link" aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">ACTIVATE</a>
@@ -48,31 +50,75 @@
                                 <a class="nav-link" href="#">CHECKOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">LOGIN</a>
+                                <a class="nav-link active" href="#">LOGIN</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <!-- welcome message a account name section-->
             <div class="container">
-                <h1 class="head-title">The No Nonsense Network</h1>
-            </div>
-
-            <!-- top sticker -->
-            <div class="container">
-                <div class="row justify-content-end align-items-center top-feature">
-                    <div class="col--md-3">
-                        <img class="top-sticker hvr-pulse" src="image/POPIT-CREATURE.png" alt="">
-                    </div>
-                    <div class="col-md-5 feature-text text-right top-feature-text">
-                        <h3>No speed restrictions</h3>
-                        <h3>No credit checks</h3>
-                        <h3>No contract</h3>
-                    </div>
+                <div class="text-right">
+                    <h1 class="mini-title">Welcome to your account</h1>
+                    <h1 class="account-name">David Smith 01234 567 891</h1>
                 </div>
             </div>
         </section>
 
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Circles -->
+                <div class="col-md-3">
+                    <img class="volume" src="image/popit-green-circle.png" alt="">
+                    <div class="volume-text green">
+                        <h1 class="fat-text">YOUR</h1>
+                        <h1 class="fat-text">PACKAGE</h1>
+                        <h1 class="fat-text">$ 15.00</h1>
+                        <h1>Unlimited Calls</h1>
+                        <h1>& Texts</h1>
+                        <h1 class="fat-text">VIEW</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="volume" src="image/popit-violet-circle.png" alt="">
+                    <div class="remaining-volume-text">
+                        <h1 class="fat-text">MINUTES</h1>
+                        <h1 class="midium-text">USED <span>123</span></h1>
+                        <h1 class="midium-text">REMAINING <span>345</span></h1>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="volume" src="image/popit-green-circle.png" alt="">
+                    <div class="remaining-volume-text green">
+                        <h1 class="fat-text">TEXTS</h1>
+                        <h1 class="midium-text">USED <span>123</span></h1>
+                        <h1 class="midium-text">REMAINING <span>345</span></h1>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img class="volume" src="image/popit-violet-circle.png" alt="">
+                    <div class="remaining-volume-text">
+                        <h1 class="fat-text">DATA</h1>
+                        <h1 class="midium-text">USED <span>123</span></h1>
+                        <h1 class="midium-text">REMAINING <span>345</span></h1>
+                        
+                    </div>
+                </div>
+               
+            </div>
+    
+            <div class="d-flex justify-content-between">
+                <button class="btn btn-green">ACCOUNT</button>
+                <button class="btn btn-green">BILLS</button>
+                <button class="btn btn-green">SUPPORT</button>
+                <button class="btn btn-green">UPGRADES</button>
+                <button class="btn btn-green">BOLT ONS</button>
+                <button class="btn btn-green">TOP UPS</button>
+            </div>
+        </div>
         <!-- Main Content with box -->
         <div class="main-content">
             <div class="container">
@@ -175,30 +221,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-2 footer-manu">
-                            <a href="">ACTIVATE</a> <br />
-                            <div class="sub-manu-active">
-                                <span><a class="sub-footer-manu" href="">Terms</a></span>
-                            </div>
-                        </div>
-                        <div class="col-md-2 footer-manu">
-                            <a href="">CHECKOUT</a>
-                        </div>
-                        <div class="col-md-2 footer-manu">
-                            <a href="">LOGIN</a>
-                        </div>
-                        <div class="col-md-2 footer-manu">
-                            <a href="">ABOUT US</a>
-                        </div>
-                        <div class="col-md-2 footer-manu">
-                            <a href="">HELP</a> <br />
-                            <div class="sub-footer-manus">
-                                <span><a class="sub-footer-manu" href="">How to</a></span> <br />
-                                <span><a class="sub-footer-manu" href="">Contact Us</a></span>
-                            </div>
-                        </div>
-                    </div>
+                    <h1 class="mid-title">FREE ROAMING IN OVER 75 COUNTRIES!</h1>
+                            
 
                 </div>
                 <div class="col-md-3 text-right footer-logo-small-screen">

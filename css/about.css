@@ -5,7 +5,7 @@ body{
     margin: 0px 45px;
 }
 .nav-head-section{
-    background-image: url(../image/POPIT-BACKGROUND-1.png);
+    background-image: url(../image/POPIT-BACKGROUND-4.png);
     background-size: cover;
     background-position: center center;
     color: #fff !important;
@@ -40,82 +40,51 @@ body{
     font-size: 64px;
     letter-spacing: 1px;
     font-family: 'Jost', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
+.about-title{
+    font-size: 66px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.thank-message{
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 40px 0 30px 80px;
+}
+
+
 .top-sticker{
-    width: 250px;
-    margin:20px 0;
+    width: 220px;
+    margin: 10px 0 0 0;
     -webkit-filter: drop-shadow(5px 12px 10px #222 );
     filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.568));
 }
 
-.feature-text h3{
-    line-height: 45px;
-    font-weight: 700;
-    font-family: 'Source Code Pro', monospace;
-}
 
-
-
-.main-content{
-    background-color: #480069ad;
-}
-
-
-.main-content-title{
+.popit-mobile-feature h2{
     text-align: center;
-    padding: 20px 0;
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-.content-circle{
-    width:100%;
-    position: relative;
-    margin-bottom: 40px;
-    -webkit-filter: drop-shadow(8px 10px 15px #222 );
-    filter: drop-shadow(15px 8px 15px #222);
-}
-
-.deal1-text{
-    position:absolute;
-    top: 20%;
-    left: 10%;
-    text-align: center;
-    font-size: 66px !important;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.content-text{
-    position:absolute;
-    top: 10%;
-    left: 12%;
-    text-align: center;
-    font-weight: 700 !important;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-/* .content-text .h1{
-    font-size: 44px;
-    line-height: .6 !important;
-    font-weight: 700 !important;
-    font-family: 'Noto Sans KR', sans-serif;
-} */
-
-.gb-text{
+    font-size: 30px;
     font-weight: 900;
-    font-size: 54px;
-    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding: 15px 0;
+}
+.popit-mobile-feature h4{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    font-family: 'Jost', sans-serif;
 }
 
-.green-circle-text{
-    color: #000;
+.popit-team-text{
+    margin-bottom: 360px;
 }
 
-.bottom-feature-box{
-    padding: 30px 20px;
-}
 
 .bottom-sticker{
     padding:20px 0;
@@ -123,30 +92,15 @@ body{
     filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.644));
 }
 
-.btm-stck1{
-    height: auto;
+.btm-stckr{
+    margin-bottom:20px;
+    width:100%;
 }
 
 
-.whychoose{
-    font-size: 32px;
-    font-weight: 700;
-    font-family: 'Noto Sans KR', sans-serif;
-    letter-spacing: 2px;
-    padding: 10px 0;
-}
 
-.noNonsense{
-    font-size: 48px;
-    letter-spacing: 3px;
-    font-family:  'Jost', sans-serif;
 
-}
 
-.bottom-feature{
-    text-align:left;
-    margin-left: 170px;
-}
 
 .footer{
     background-color: rgb(204, 204, 0);
@@ -197,6 +151,10 @@ h1{
     cursor: pointer;
 }
 
+
+
+
+/* ======================================Responsive ============================================= */
 /* * Small Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
     .nav-item{
@@ -212,59 +170,50 @@ h1{
         font-weight: 700;
         padding:30px 0;
     }
-    .top-feature{
-        justify-content:left !important;
+    
+    .about-title{
+        font-size: 44px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        margin: 40px 0;
+        text-align: center;
+    }
+    .thank-message{
+        font-size: 22px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        margin: 20px 20px;
+        text-align: center;
     }
     .top-sticker{
         width:100%;
+        margin-top: 30px 0 0 0;
     }
-    
-    .feature-text h3{
-        line-height: 45px;
-        font-family: Arial, Helvetica, sans-serif;
-        letter-spacing: 2px;
-        text-align:center !important;
-        font-size:22px;
-    }
-    .main-content-title{
+    .mid-title{
+        font-size: 20px;
+        font-weight: 900;
+        margin: 80px 0 30px;
         text-align: center;
-        padding: 20px 0;
-        font-weight: 700;
-        letter-spacing: 2px;
+    }
+
+
+        
+    .popit-mobile-feature h2{
+        text-align: center;
         font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        padding: 15px 0;
     }
-    .content-circle{
-        -webkit-filter: drop-shadow(4px 5px 8px #222 );
-        filter: drop-shadow(4px 5px 8px #222);
+    .popit-mobile-feature h4{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        padding: 10px 0;
+        font-family: 'Jost', sans-serif;
     }
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 34px;
-    }
-    .content-text{
-        left: 10%;
-    }
-    .content-text h1{
-        font-size:34px;
-    }
-    .bottom-feature-responsive{
-        width: 100% !important;
-    }
-    .whychoose{
-        font-size: 26px;
-        font-weight: 500;
-        letter-spacing: 0;
-    }
-    .noNonsense{
-        font-size: 32px;
-        font-weight: 700;
-    }
-    .bottom-feature{
-        margin-left: 20px;
-    }
+
     .footer-manu {
         text-align:center;
     }
@@ -298,20 +247,7 @@ h1{
 
 /*  mini Screen */
 @media only screen and (min-width: 375px) and (max-width: 500px){
-    .deal1-text{
-        top: 25%;
-        left: 12%;
-    }
-    .deal1-text h1{
-        font-size: 38px;
-    }
-    .content-text{
-        left: 12%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:38px;
-    }
+   
 
 }
 
@@ -319,20 +255,7 @@ h1{
 
 /*  tab Screen */
 @media only screen and (min-width: 425px) and (max-width: 500px){
-    .deal1-text{
-        top: 25%;
-        left: 12%;
-    }
-    .deal1-text h1{
-        font-size: 42px;
-    }
-    .content-text{
-        left: 14%;
-        top:14%;
-    }
-    .content-text h1{
-        font-size:42px;
-    }
+    
 
 }
 
@@ -354,24 +277,18 @@ h1{
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .deal1-text{
-        top: 20%;
-        left: 12%;
+    .about-title{
+        font-size: 40px;
+        letter-spacing: 1px;
+        text-align: right;
     }
-    .deal1-text h1{
-        font-size: 26px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:26px;
-    }
-    .gb-text{
+    .thank-message{
+        font-size: 22px;
         font-weight: 900;
-        font-size: 32px;
+        letter-spacing: 2px;
+        margin: 40px 0 30px 80px;
     }
+
     .footer-manu a{
         color:rgb(65, 29, 29);
         padding-right:0 !important;
@@ -396,24 +313,12 @@ h1{
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 36px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:36px;
-    }
-    .gb-text{
+    .about-title{
+        font-size: 56px;
         font-weight: 900;
-        font-size: 32px;
+        letter-spacing: 4px;
     }
+    
 }
 
 
@@ -431,22 +336,5 @@ h1{
         font-weight: 700;
         margin-bottom: 30px;
     }
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 36px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:36px;
-    }
-    .gb-text{
-        font-weight: 900;
-        font-size: 32px;
-    }
+    
 }

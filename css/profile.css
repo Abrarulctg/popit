@@ -35,26 +35,81 @@ body{
     color: #C3D106 !important;
 }
 
-.head-title{
-    text-align: right;
-    font-size: 64px;
-    letter-spacing: 1px;
-    font-family: 'Jost', sans-serif;
-    margin-bottom: 30px;
-}
-
-.top-sticker{
-    width: 250px;
-    margin:20px 0;
-    -webkit-filter: drop-shadow(5px 12px 10px #222 );
-    filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.568));
-}
-
-.feature-text h3{
-    line-height: 45px;
+.mini-title{
     font-weight: 700;
-    font-family: 'Source Code Pro', monospace;
+    font-size: 26px;
+    font-family: 'Jost', sans-serif;
 }
+
+.account-name{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 15px 0 45px 0;
+    font-family: 'Jost', sans-serif;
+    color: #C3D106;
+}
+
+
+.volume{
+    width:100%;
+    position: relative;
+    margin-bottom: 40px;
+    -webkit-filter: drop-shadow(8px 10px 15px #222 );
+    filter: drop-shadow(15px 8px 15px #222);
+}
+
+.volume-text{
+    position:absolute;
+    top: 10%;
+    left: 18%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.volume-text h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+
+.remaining-volume-text{
+    position:absolute;
+    top: 15%;
+    left: 13%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.remaining-volume-text h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.green{
+    color: #000;
+}
+
+.fat-text{
+    font-weight: 900 !important;
+}
+
+
+
+.btn-green{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: #C3D106;
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+    -webkit-filter: drop-shadow(8px 8px 10px #222 );
+    filter: drop-shadow(8px 8px 10px #222);
+}
+
+
+
 
 
 
