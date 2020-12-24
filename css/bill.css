@@ -111,8 +111,11 @@ body{
 }
 
 
+
+
 .main-content{
-    background-color: #4800698a;
+    background-color: #ffffffad;
+    height: 700px;
 }
 
 
@@ -122,32 +125,10 @@ body{
     font-weight: 700;
     letter-spacing: 3px;
     font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    text-align: left;
 }
 
-.content-circle{
-    width:100%;
-    position: relative;
-    margin-bottom: 40px;
-    -webkit-filter: drop-shadow(8px 10px 15px #222 );
-    filter: drop-shadow(15px 8px 15px #222);
-}
-
-.deal1-text{
-    position:absolute;
-    top: 20%;
-    left: 10%;
-    text-align: center;
-    font-size: 66px !important;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.content-text{
-    position:absolute;
-    top: 10%;
-    left: 12%;
-    text-align: center;
-    font-weight: 700 !important;
-    font-family: 'Noto Sans KR', sans-serif;
-}
 
 .gb-text{
     font-weight: 900;
@@ -185,6 +166,7 @@ h1{
     cursor: pointer;
 }
 
+
 .progress{
     border: 2px solid #fff;
     height:30px;
@@ -197,6 +179,8 @@ h1{
 .bg-green{
     background-color: #C3D106;
 }
+
+
 
 
 
@@ -265,13 +249,6 @@ h1{
         -webkit-filter: drop-shadow(8px 8px 10px #222 );
         filter: drop-shadow(8px 8px 10px #222);
     }
-    .feature-text h3{
-        line-height: 45px;
-        font-family: Arial, Helvetica, sans-serif;
-        letter-spacing: 2px;
-        text-align:center !important;
-        font-size:22px;
-    }
     .main-content-title{
         text-align: center;
         padding: 20px 0;
@@ -279,26 +256,7 @@ h1{
         letter-spacing: 1px;
         font-size: 24px;
     }
-    .content-circle{
-        -webkit-filter: drop-shadow(4px 5px 8px #222 );
-        filter: drop-shadow(4px 5px 8px #222);
-    }
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 34px;
-    }
-    .content-text{
-        left: 10%;
-    }
-    .content-text h1{
-        font-size:34px;
-    }
-    .bottom-feature-responsive{
-        width: 100% !important;
-    }
+    
 
     .footer-logo-small-screen{
         text-align: center !important;
@@ -359,20 +317,6 @@ h1{
         font-size: 30px;
         font-weight: 700;
     }
-    .deal1-text{
-        top: 25%;
-        left: 12%;
-    }
-    .deal1-text h1{
-        font-size: 38px;
-    }
-    .content-text{
-        left: 12%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:38px;
-    }
 
 }
 
@@ -406,24 +350,6 @@ h1{
         font-size: 30px;
         font-weight: 700;
     }
-
-
-
-    .deal1-text{
-        top: 25%;
-        left: 12%;
-    }
-    .deal1-text h1{
-        font-size: 42px;
-    }
-    .content-text{
-        left: 14%;
-        top:14%;
-    }
-    .content-text h1{
-        font-size:42px;
-    }
-
 }
 
 
@@ -490,21 +416,6 @@ h1{
         filter: drop-shadow(8px 8px 10px #222);
     }
 
-
-    .deal1-text{
-        top: 20%;
-        left: 12%;
-    }
-    .deal1-text h1{
-        font-size: 26px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:26px;
-    }
     .gb-text{
         font-weight: 900;
         font-size: 32px;
@@ -559,23 +470,6 @@ h1{
         font-weight: 600;
     }
 
-
-
-
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 36px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:36px;
-    }
     .gb-text{
         font-weight: 900;
         font-size: 32px;
@@ -596,20 +490,6 @@ h1{
         font-size: 54px;
         font-weight: 700;
         margin-bottom: 30px;
-    }
-    .deal1-text{
-        top: 20%;
-        left: 10%;
-    }
-    .deal1-text h1{
-        font-size: 36px;
-    }
-    .content-text{
-        left: 10%;
-        top:12%;
-    }
-    .content-text h1{
-        font-size:36px;
     }
     .gb-text{
         font-weight: 900;

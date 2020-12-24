@@ -1,0 +1,626 @@
+body{
+    font-family: 'Nobile', sans-serif;
+}
+.container-fluid{
+    margin: 0px 45px;
+}
+.nav-head-section{
+    background-image: url(../image/checkout-bg.png);
+    background-size: cover;
+    background-position: center center;
+    color: #fff !important;
+}
+
+.navbar-brand{
+    position: relative;
+}
+.navbar-brand img{
+    position: absolute;
+    width: 280px;
+    bottom: -1600% !important;
+}
+
+.nav-item{
+    padding: 20px 8px;
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.nav-item .active{
+    color: #C3D106 !important;
+}
+
+.head-title{
+    text-align: right;
+    font-size: 64px;
+    letter-spacing: 1px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 30px;
+}
+
+.big-title{
+    font-size: 66px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+
+.checkout-box{
+    background-color: #EFF2F3;
+    margin-top: 70px !important;
+}
+.purchase-box{
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    padding: 30px 15px;
+}
+
+.volume-circle{
+    position:relative;
+    width: 100%;
+    -webkit-filter: drop-shadow(8px 10px 10px #222 );
+    filter: drop-shadow(10px 8px 15px #222);
+}
+
+.volume-text{
+    position: absolute;
+    top: 14%;
+    left:15%;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    color: #000;
+}
+.volume-text h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.gb-text{
+    font-weight: 900 !important;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 22px !important;
+}
+.pack-name{
+    font-family: 'Noto Sans KR', sans-serif !important;  
+    font-size: 26px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.offer-text{
+    font-family:'Noto Sans KR', sans-serif !important;  
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.trash-icon{
+    position: absolute;
+    right: 5%;
+    width: 25px;
+    cursor: pointer;
+}
+
+.quantity-box{
+    border: 1px solid lightgray;
+}
+
+.qty-text{
+    margin:0;
+    padding: 0 8px;
+}
+
+.qty-price{
+    margin-top: 80px;
+}
+
+.payment-section{
+    padding: 30px 0;
+    color: #000;
+}
+
+.promo-code{
+    background-color: #EFF2F3;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.promo-code::placeholder{
+    color:#000;
+    font-weight: 700;
+}
+
+small{
+    color: gray;
+}
+
+.btn-checkout{
+    width:100%;
+    background-image: linear-gradient(to right, #5B83BF , #62B7E5);
+    color: #fff;
+    padding: 10px 0;
+    margin: 10px 0 30px 0;
+}
+.btn-checkout:hover{
+    color: #fff;
+}
+
+.right-arrow{
+    width:20px;
+    margin-left: 50px;
+ }
+
+
+.security-text{
+    position: relative;
+    text-align: center;
+    color: gray;
+}
+
+
+.security-text:after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 25%;
+    background: lightgray;
+    border-radius: 10px;
+    top: 50%;
+    left: 12%;
+    transform: translateX(-50%);
+}
+
+.security-text:before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 25%;
+    background: lightgray;
+    border-radius: 10px;
+    top: 50%;
+    right: 12%;
+    transform: translateX(50%);
+}
+
+.lock-icon{
+    width: 15px;
+}
+
+
+.card-logo{
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+
+
+.bottom-sticker{
+    padding:20px 0;
+    -webkit-filter: drop-shadow(5px 12px 10px #222 );
+    filter: drop-shadow(2px 20px 15px rgba(34, 34, 34, 0.644));
+}
+
+.btm-stckr{
+    margin-bottom:20px;
+    width:100%;
+}
+
+
+
+.footer{
+    background-color: rgb(204, 204, 0);
+}
+.footer-manu{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-manu a{
+    color:rgb(65, 29, 29);
+    padding-right:30px;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.footer-manu a:hover{
+    text-decoration: none;
+}
+
+.footer-logo{
+    width: 150px;
+    margin: 20px 0 20px;
+    padding: 0;
+}
+
+.footer-manu .sub-footer-manu{
+    font-size: 14px !important;
+    letter-spacing: normal;
+}
+.sub-footer-manus{
+    text-align:left !important;
+    padding-left:25px;
+}
+.sub-manu-active{
+    text-align: left !important;
+}
+
+.footer .text-right{
+    padding:0;
+}
+
+h1{
+    margin:0;
+}
+
+.hvr-float{
+    cursor: pointer;
+}
+
+/* * Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .nav-item{
+        padding: 0;
+    }
+    .navbar-brand img{
+        width: 100px;
+        position:relative;
+    }
+    .head-title{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        padding:30px 0;
+    }
+        
+    .volume-text{
+        position: absolute;
+        top: 14%;
+        left:15%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        color: #000;
+    }
+    .volume-text h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .purchase-volume{
+        margin: 40px 0;
+    }
+
+    .gb-text{
+        font-weight: 900 !important;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 40px !important;
+    }
+    .trash-icon{
+        top:-380%;
+        width: 30px;
+    }
+    .promo-code{
+        margin-bottom: 30px;
+    }
+
+    
+    .security-text:after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 20%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        left: 10%;
+        transform: translateX(-50%);
+    }
+
+    .security-text:before{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 20%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        right: 10%;
+        transform: translateX(50%);
+    }
+
+    .footer-manu {
+        text-align:center;
+    }
+    .footer-manu a{
+        color:rgb(65, 29, 29);
+        padding-right:0 !important;
+        font-size:20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .footer-logo-small-screen{
+        text-align: center !important;
+    }
+    .sub-footer-manu{
+        font-size: 14px !important;
+    }
+    .sub-manu-active{
+        text-align: center !important;
+    }
+    .sub-footer-manus{
+        text-align:center !important;
+        padding-left:0;
+    }
+    
+    .btm-stckr{
+        margin-bottom:20px;
+    }
+}
+
+
+
+/*  mini Screen */
+@media only screen and (min-width: 375px) and (max-width: 500px){
+    .volume-text{
+        position: absolute;
+        top: 14%;
+        left:15%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        color: #000;
+    }
+    .volume-text h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .purchase-volume{
+        margin: 40px 0;
+    }
+
+    .gb-text{
+        font-weight: 900 !important;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 40px !important;
+    }
+    .trash-icon{
+        top:-420%;
+        width: 30px;
+    }
+        
+    .security-text:after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 25%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        left: 12%;
+        transform: translateX(-50%);
+    }
+
+    .security-text:before{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 25%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        right: 12%;
+        transform: translateX(50%);
+    }
+}
+
+
+
+/*  tab Screen */
+@media only screen and (min-width: 425px) and (max-width: 500px){
+    .volume-text{
+        position: absolute;
+        top: 18%;
+        left:15%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        color: #000;
+    }
+    .volume-text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .purchase-volume{
+        margin: 40px 0;
+    }
+
+    .gb-text{
+        font-weight: 900 !important;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 48px !important;
+    }
+    .trash-icon{
+        top:-450%;
+        width: 30px;
+    }
+}
+
+
+/*  medium Screen */
+@media only screen and (min-width: 768px) and (max-width: 780px){
+    .nav-item{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .navbar-brand img{
+        position: absolute;
+        width: 150px;
+        bottom: -1000% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .volume-text{
+        position: absolute;
+        top: 8%;
+        left:20%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        color: #000;
+    }
+    .volume-text h1{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .purchase-volume{
+        margin: 40px 0;
+    }
+
+    .gb-text{
+        font-weight: 900 !important;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 16px !important;
+    }
+    .trash-icon{
+        top: 0;
+        right: 10%;
+        width: 25px;
+    }
+    .pricing-responsive{
+        padding: 0 10px;
+    }
+    .price-responsive{
+        margin: 8px 0 0 0;
+    }
+
+    .security-text:after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 8%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        left: 5%;
+        transform: translateX(-50%);
+    }
+
+    .security-text:before{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 8%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        right: 5%;
+        transform: translateX(50%);
+    }
+
+    .footer-manu a{
+        color:rgb(65, 29, 29);
+        padding-right:0 !important;
+        font-size:14px;
+        font-weight: 700;
+    }   
+    .sub-manu-active{
+        color:rgb(65, 29, 29);
+        padding-right:0 !important;
+        font-size:10px !important;
+        font-weight: 500;
+    }   
+    .sub-footer-manus a{
+        font-size:10px !important;
+        font-weight: 700;
+    }
+
+}
+
+
+
+/*  mini desktop Screen */
+@media only screen and (min-width: 1024px) and (max-width: 1100px){
+    .navbar-brand img{
+        position: absolute;
+        width: 100px;
+        bottom: -350% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 54px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .volume-text{
+        position: absolute;
+        top: 12%;
+        left:15%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        color: #000;
+    }
+    .volume-text h1{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .purchase-volume{
+        margin: 40px 0;
+    }
+
+    .gb-text{
+        font-weight: 900 !important;
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 20px !important;
+    }
+
+    .security-text:after{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 20%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        left: 10%;
+        transform: translateX(-50%);
+    }
+
+    .security-text:before{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 20%;
+        background: lightgray;
+        border-radius: 10px;
+        top: 50%;
+        right: 10%;
+        transform: translateX(50%);
+    }
+
+    
+}
+
+
+
+/*  large Screen */
+@media only screen and (min-width: 1100px) and (max-width: 1220px){
+    .navbar-brand img{
+        position: absolute;
+        width: 100px;
+        bottom: -350% !important;
+    }
+    .head-title{
+        text-align: right;
+        font-size: 54px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+}
