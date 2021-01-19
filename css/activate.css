@@ -11,6 +11,7 @@ body{
     color: #fff !important;
 }
 
+
 .navbar-brand{
     position: relative;
 }
@@ -20,9 +21,50 @@ body{
     bottom: -1600% !important;
 }
 
-.nav-item{
-    padding: 20px 8px;
+
+/* Navbar bg color */
+.navbar{
+    background-color: #5f2ba3;
 }
+
+.navbar-brand{
+    position: relative;
+}
+.navbar-brand img{
+    position: absolute;
+    width: 280px;
+    bottom: -1600% !important;
+}
+
+.navbar{
+    padding: 30px 0 !important;
+}
+
+/* Navbar  behavior on Scrolling */
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 80px !important;
+}
+
+.shrink .navbar-brand img{
+    width: 100px !important;
+    bottom: -300% !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+/* normal Navbar Behavior */
+.nav-item{
+    padding: 0 8px;
+}
+
 
 .nav-item a{
     color: #fff !important;
